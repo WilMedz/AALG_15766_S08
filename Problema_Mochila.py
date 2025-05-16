@@ -32,7 +32,7 @@ for caja in cajas:
        
 print("Las cajas seleccionadas son: ")
 for denom,peso,soles in cajas_seleccionadas:
-    print(f"{denom}:{peso} (s/. {soles})")
+    print(f"{denom}:{peso} (s/. {soles:.2f})")
 
 print(f"Peso cargado:{peso_act:.2f} kg")
 print(f"Precio total: s/.{precio_total:.2f}")
